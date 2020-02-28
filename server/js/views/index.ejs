@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../components/head %>
+</head>
+<body>
+    <% include ../components/devtools %>
+    <header>
+        <nav>
+            <ul class="menu-wrapper">
+                <li>
+                    <a href="/profile">
+                        <span class="paw"></span>
+                    </a>
+                </li>
+                <li>    
+                    <button type="button">Filters</button>
+                </li>
+                <li>
+                    <a href="/matches">
+                        <span class="bone"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="dog-container">
+            <a href="/detail" class="view-more">
+                <div class="image-wrapper">
+                    <div class="image-cropper">
+                        <img src="../assets/bobby.jpg" alt="bobby">
+                    </div>
+                </div>
+                <div class="content-intro">
+                    <h1>Bobby</h1>
+                    <p>
+                        <span class="pin"></span>
+                        Amsterdam
+                    </p>
+                </div>
+                <ul class="content-list">
+                    <li>3 Years old</li>
+                    <li>Curious, Energetic, Always hungry</li>
+                    <li>"Love the beach!"</li>
+                </ul>
+            </a>
+                <div class="button-wrapper">
+                    <button type="button" aria-label="No"></button>
+                    <button type="button" aria-label="Yes"></button>
+                </div>
+        </section>
+    </main>
+</body>
+</html>

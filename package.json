@@ -1,0 +1,33 @@
+{
+  "name": "project-tech",
+  "version": "1.0.0",
+  "description": "Feature voor een dating app van blok-tech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/js/index.js",
+    "start-server": "nodemon ./server/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelseadoeleman/project-tech.git"
+  },
+  "keywords": [],
+  "author": "Chelsea Doeleman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chelseadoeleman/project-tech/issues"
+  },
+  "homepage": "https://github.com/chelseadoeleman/project-tech#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "camelcase": "^5.3.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "lodash": "^4.17.15",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sass": "^1.20.3"
+  }
+}
